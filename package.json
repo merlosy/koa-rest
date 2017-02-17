@@ -1,0 +1,39 @@
+{
+    "name": "koa-typescript-starter",
+    "version": "0.0.0",
+    "description": "Restful API with Koa v2, Typescript and MongoDB",
+    "main": "server/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc && node ./build/server.js"
+    },
+    "repository": {
+        "type": "git"
+    },
+    "keywords": [
+        "koa",
+        "typescript",
+        "api",
+        "restful",
+        "rest"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "koa": "^1.2.5",
+        "koa-logger": "^1.3.1",
+        "koa-body-parser": "^1.1.2",
+        "koa-router": "^5.4.0",
+        "cors": "^2.8.1"
+    },
+    "devDependencies": {
+        "@types/koa": "^2.0.37",
+        "@types/koa-logger": "^2.0.2",
+        "@types/koa-router": "^7.0.21",
+        "@types/node": "^7.0.5",
+        "@types/cors": "^2.8.0",
+        "@types/koa-bodyparser": "^3.0.23",
+        "ts-node": "^2.1.0",
+        "typescript": "^2.1.6"
+    }
+}
